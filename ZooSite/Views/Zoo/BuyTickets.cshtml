@@ -4,6 +4,49 @@
     ViewData["Title"] = "BuyTickets";
 }
 
+<style>
+
+    .info .form-field {
+        text-align: left;
+    }
+
+        .info .form-field div {
+            width: 172px;
+            text-align: right;
+            float: right;
+        }
+
+    .info label {
+        width: 118px;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .info input {
+        border-radius: 12px;
+        line-height: 20px;
+        border: 1px solid #ccc6c6;
+        background-color: #f9f6f6;
+        width: 100%;
+    }
+
+    input.submit-btn {
+        width: 100px;
+        margin-top: 12px;
+        height: 29px;
+        background-color: orange;
+        font-weight: bold;
+        box-shadow: inset 0px 0px 4px #b77006;
+        border: 1px solid #a59797;
+    }
+
+        input.submit-btn[disabled] {
+            opacity: 0.8;
+            background-color: whitesmoke;
+            box-shadow: none;
+        }
+</style>
+
 <div class="container buy-tickets">
     <div class="info">
         <div class="step-title">Step 1 - Choose Tickets</div>
